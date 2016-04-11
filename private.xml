@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<root>
+    <modifierdef>HHKB_FN</modifierdef>
+  <item>
+    <name>HHKB_FN</name>
+    <identifier>private.hhkb_fn</identifier>
+    <autogen>__KeyToKey__ KeyCode::FORWARD_DELETE, KeyCode::VK_MODIFIER_HHKB_FN</autogen>
+    <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, ModifierFlag::HHKB_FN, KeyCode::CURSOR_UP</autogen>
+    <autogen>__KeyToKey__ KeyCode::SLASH, ModifierFlag::HHKB_FN, KeyCode::CURSOR_DOWN</autogen>
+    <autogen>__KeyToKey__ KeyCode::SEMICOLON, ModifierFlag::HHKB_FN, KeyCode::CURSOR_LEFT</autogen>
+    <autogen>__KeyToKey__ KeyCode::QUOTE, ModifierFlag::HHKB_FN, KeyCode::CURSOR_RIGHT</autogen>
+  </item>
+  <item>
+    <name>Swap backquote(`) and backslash(\)</name>
+    <identifier>private.swap_backquote_and_backslash</identifier>
+    <autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::BACKSLASH</autogen>
+    <autogen>__KeyToKey__ KeyCode::BACKSLASH, KeyCode::BACKQUOTE</autogen>
+  </item>
+<!-- <item>
+    <name>Use Delete Key as the Fn key in HHKB</name>
+    <identifier>private.delete_HHKB</identifier>
+    <autogen>__KeyToKey__ KeyCode::FORWARD_DELETE, KeyCode::DELETE</autogen>
+</item> -->
+</root>
