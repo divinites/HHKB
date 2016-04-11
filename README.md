@@ -12,7 +12,7 @@ The private.xml basically does two things:
 
 ## Usage:
 
-1. Install[Karabiner](https://pqrs.org/osx/karabiner/)
+1. Install [Karabiner](https://pqrs.org/osx/karabiner/)
 2. Open it and click "Misc & Uninstall"
 3. click "Open private.xml"
 4. merge my private.xml with yours, or simply replace it if you have no customize configuration yet.
